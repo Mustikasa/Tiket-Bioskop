@@ -1,0 +1,51 @@
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build outputs
+# =========================
+bin/
+obj/
+Debug/
+Release/
+TestResults/
+*.cache/
+*.log
+
+# =========================
+# NuGet
+# =========================
+packages/
+*.nupkg
+# Jika pakai PackageReference, folder packages tidak perlu di-commit
+
+# =========================
+# Database
+# =========================
+# Jangan commit file database asli MySQL (ibdata, frm, ibd)
+*.frm
+*.ibd
+*.myd
+*.myi
+*.ibdata*
+
+# =========================
+# Config lokal (aman)
+# =========================
+# App.config tetap di-commit (biar ada contoh connection string),
+# tapi kalau kamu bikin versi lokal jangan ikut di-commit.
+*.local.config
+appsettings.Local.json
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
